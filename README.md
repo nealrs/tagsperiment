@@ -10,6 +10,6 @@ Most hackers only tag languages and key APIs. Hosting providers, build tools, an
 
 If this all works out, I want to think about relationships between tags. Is a project hosted on heroku more likely to be a RoR project? If so, maybe we could suggest that tag even if RoR isn't mentioned explicitly. Or hey, are you building a webapp with node? Well then you're probably using express or some other common framework. 
 
-## Bruh&ellip;
+## Bruh&hellip;
 
 Hey, if you've got some feedback, better ideas, whatevers, I'd love to hear it. 
