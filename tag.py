@@ -33,7 +33,8 @@ stags = [];
 for t in db:
     reg = t['phrase'] + r'\b';
     if re.search(reg, text, re.IGNORECASE):
-        stags.append([str(t['tag'])])
+        stags.append(str(t['tag']))
+stags = list(set(stags))
 
 print "Suggested tags: \n"
 print stags
