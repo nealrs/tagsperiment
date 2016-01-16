@@ -25,8 +25,7 @@ if r.status_code is 200:
         etags.append(str(x['name']))
 
 print "Project title, tagline, description, and contributions: \n" + text + "\n"
-print "Existing tags: "
-print str(etags) + "\n"
+print "Existing tags: ", str(etags) + "\n"
 
 ## EXTRACT TAGS
 stags = [];
@@ -36,5 +35,4 @@ for t in db:
         stags.append(str(t['tag']))
 stags = list(set(stags))
 
-print "Suggested tags: \n"
-print stags
+print "Suggested tags: ", stags
